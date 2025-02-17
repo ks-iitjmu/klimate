@@ -43,3 +43,19 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 - [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API.
 - [React](https://reactjs.org/) for the front-end framework.
+
+## Deployment
+
+To deploy this project using Vercel:
+
+1. Install the Vercel CLI:
+    ```bash
+    npm install -g vercel
+    ```
+2. Run the following command to deploy:
+    ```bash
+    vercel
+    ```
+3. Follow the prompts to link your project to a Vercel account and deploy.
+
+For more details, refer to the [Vercel documentation](https://vercel.com/docs).
