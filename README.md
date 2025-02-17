@@ -1,10 +1,45 @@
-# Weather App with Next JS, React, Tanstack Query, Shadcn UI, Recharts, Tailwind, Typescript Tutorial 🔥🔥
-## https://youtu.be/BCp_5PoKrvI
+# Klimate
 
-![klimate](https://github.com/user-attachments/assets/03aed8a9-f2e1-4fcf-8628-5d1abd0c678c)
+Klimate is a simple web application that provides weather information for different locations. It uses the OpenWeatherMap API to fetch current weather data.
 
-### Make sure to create a `.env` file with following variables -
+## Features
 
-```
-VITE_OPENWEATHER_API_KEY=
-```
+- Search for weather by city name
+- Display current temperature, humidity, and weather conditions
+- Responsive design for mobile and desktop
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Klimate.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Klimate
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
+2. Create a `.env` file in the root directory and add your API key:
+    ```
+    REACT_APP_WEATHER_API_KEY=your_api_key_here
+    ```
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## Acknowledgements
+
+- [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API.
+- [React](https://reactjs.org/) for the front-end framework.
